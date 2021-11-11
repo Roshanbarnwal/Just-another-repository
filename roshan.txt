@@ -1,0 +1,4 @@
+restore command makes last command void in the directory itself
+like if u deleted a file,it will be undeleted.
+like if u modified a file lastly,it will be unmodified.
+
