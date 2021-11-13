@@ -1,0 +1,5 @@
+first of all, there is only one branch with a particular name across all the repository in your github 
+account.
+You can have as many repos as you want but there is only one 'master' branch, 1 'main' branch and so on.
+Yes, if you push a commit to a branch of a particular repos,it will also add other commits pushed 
+earlier to that same branch name from other repos in your account into the former/desired repos.
