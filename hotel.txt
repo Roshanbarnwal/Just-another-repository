@@ -1,0 +1,10 @@
+-> I deleted hotel.txt at first:- rm hotel.txt
+-> This removes hotel.txt from PC github directory but it is still there in git repos in my github 
+   account.
+-> So to remove it from git repos as well, I commited my action and pushed it into the git repos url 
+   in master branch. Now this action is stored in .git as a history and removes hotel.txt from repos as 
+   well.
+-> Now to restore the hotel.txt file, I cannot restore it directly into my PC as there is no longer such   file.So for restoring it, there is only one way i.e. from .git folder which has all the history.So I
+   bring down all the history log to that point of time when I deleted hotel.txt by copying the hash 
+   keys:- git reset "hash keys from git log"
+-> Now hotel.txt is in unstaged ,untracked file category.So now I can restore it:-git restore hotel.txt
